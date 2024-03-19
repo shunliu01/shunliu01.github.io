@@ -22,9 +22,9 @@ repository               : "shunliu01/shunliu01.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "WHOAMI"
+  name             : "Shun Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "A CS junior and passionate researcher"
   location         : "Shanghai, China"
   employer         : "Shanghai University of Finance and Economics"
   uri              : # URL
@@ -35,8 +35,8 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=9Y1aQ0oAAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/0009-0007-5240-9114"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
