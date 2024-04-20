@@ -58,50 +58,44 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+    <tr onmouseout="maif_stop()" onmouseover="maif_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-          <source src="images/smerf.mp4" type="video/mp4">
+          <div class="two" id='maif_image'><video  width=100% muted autoplay loop>
+          <source src="images/MAIF.jpg" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/smerf.jpg' width=100%>
+          <img src='images/MAIF.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
+          function maif_start() {
+            document.getElementById('maif_image').style.opacity = "1";
           }
 
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
+          function maif_stop() {
+            document.getElementById('maif_image').style.opacity = "0";
           }
-          smerf_stop()
+          maif_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+        <a href="https://arxiv.org/pdf/2401.02630.pdf">
+          <span class="papertitle">MAIF: Model-Agnostic Interpretation Framework in Machine Learning: A Comparative Study in NBA Sports</span>
         </a>
         <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
+      <a><strong>Shun Liu</strong></a>,
+      <a href="https://www.linkedin.com/in/jiaxi-yang-19a6b1b6/">Jiaxi Yang</a>,
         <br>
-        <em>arXiv</em>, 2023
+        <em>arXiv</em>, 2024
         <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-        /
+        <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
+        <!-- / -->
+        <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+        <!-- / -->
         <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
         <p></p>
         <p>
-        Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
+        We proposed an innovative framework designed to reconcile the trade-off between model performance and interpretability. Our approach is centered around modular operations on high-dimensional data, which enable end-to-end processing while preserving interpretability. By fusing diverse interpretability techniques and modularized data processing, our framework sheds light on the decision-making processes of complex models without compromising their performance
         </p>
       </td>
     </tr>
@@ -129,25 +123,29 @@
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
+          <span class="papertitle">Financial Time-Series Forecasting: Towards Synergizing Performance And Interpretability Within a Hybrid Machine Learning Approach</span>
         </a>
         <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+    <strong>Jonathan T. Barron</strong>
+        <a href="https://pratulsrinivasan.github.io/">Kexin Wu</a>,
+        <a href="http://stephangarbin.com/">Chufeng Jiang</a>,
+        <a href="https://dorverbin.github.io/">Bin Huang</a>,
+        <a href="https://bmild.github.io/">Danqing Ma</a>
         <br>
-        <em>arXiv</em>, 2023
+        <em>arXiv</em>, 2024
         <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+        <!-- <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
         /
         <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
+        / -->
         <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
         <p></p>
         <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+          we compare the mainstream time-series wrangling methods observed by performance gains, including
+          cyclic decomposition, auto-correlational function, exponential triple forecasting, which aim to excavate
+          latent relations and complex patterns appeared in the financial high-dimensional time-series forecasting. To the best
+          of our knowledge, this work sets an initial try on the systematic overview on preprocessing techniques for 
+          cryptocurrency price grounding and forecasting.
         </p>
       </td>
     </tr>
