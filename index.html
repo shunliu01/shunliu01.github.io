@@ -101,32 +101,29 @@
     </tr>
 	
 
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+    <tr onmouseout="ifts_stop()" onmouseover="ifts_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/nuvo.jpg' width=100%>
+          <div class="two" id='ifts_image'></div>
+          <img src='images/IFTS.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
+          function ifts_start() {
+            document.getElementById('ifts_image').style.opacity = "1";
           }
 
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
+          function ifts_stop() {
+            document.getElementById('ifts_image').style.opacity = "0";
           }
-          nuvo_stop()
+          ifts_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
+        <a href="https://arxiv.org/pdf/2401.00534.pdf">
           <span class="papertitle">Financial Time-Series Forecasting: Towards Synergizing Performance And Interpretability Within a Hybrid Machine Learning Approach</span>
         </a>
         <br>
-    <strong>Jonathan T. Barron</strong>
+    <strong>Shun Liu</strong>
         <a href="https://pratulsrinivasan.github.io/">Kexin Wu</a>,
         <a href="http://stephangarbin.com/">Chufeng Jiang</a>,
         <a href="https://dorverbin.github.io/">Bin Huang</a>,
@@ -149,6 +146,53 @@
         </p>
       </td>
     </tr>
+
+    <tr onmouseout="adayolo_stop()" onmouseover="adayolo_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='adayolo_image'></div>
+          <img src='images/adayolo.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function adayolo_start() {
+            document.getElementById('adayolo_image').style.opacity = "1";
+          }
+
+          function adayolo_stop() {
+            document.getElementById('adayolo_image').style.opacity = "0";
+          }
+          adayolo_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2312.10099.pdf">
+          <span class="papertitle">ADA-YOLO: Dynamic Fusion of YOLOv8 and Adaptive Heads for Precise Image Detection and Diagnosis</span>
+        </a>
+        <br>
+    <strong>Shun Liu</strong>
+        <a href="https://scholar.google.com/citations?hl=en&user=_GX9j1YAAAAJ">Jianan Zhang</a>,
+        <a href="">Ruocheng Song</a>,
+        <a href="https://dr.ntu.edu.sg/cris/rp/rp00631">Teik Toe Teoh</a>,
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <!-- <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+        /
+        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
+        / -->
+        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+        <p></p>
+        <p>
+          We proposed a deep detector which leverages the dynamic
+          feature localisation and parallel regression for computer vision tasks through adaptive head module.
+          Empirical experiments were conducted on the Blood Cell Count and Detection (BCCD) dataset
+          to evaluate the effectiveness of ADA-YOLO. The results showed that ADA-YOLO outperforms
+          the YOLOv8 model in mAP (mean average precision) on the BCCD dataset by using more than 3
+          times less space than YOLOv8.
+        </p>
+      </td>
+    </tr>
+
 
     </tbody></table>
 
