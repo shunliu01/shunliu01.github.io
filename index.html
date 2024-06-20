@@ -57,8 +57,61 @@
 
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      
+      <!-- [Paper] -->
 
-
+      <!-- [LLMBias] -->
+      <tr onmouseout="llmbias_stop()" onmouseover="llmbias_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='llmbias_image'></div>
+            <!-- <embed src="images/EndoAss.pdf" width="100%" height="600" type="application/pdf"> -->
+            <!-- <iframe src='images/EndoAss.pdf' width="100" height="200></iframe> -->
+            <img src='images/LLMBias-2.png' width=100%>
+          </div>
+          <script type="text/javascript">
+            function llmbias_start() {
+              document.getElementById('llmbias_image').style.opacity = "1";
+            }
+  
+            function llmbias_stop() {
+              document.getElementById('llmbias_image').style.opacity = "0";
+            }
+            llmbias_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="">
+            <span class="papertitle">Exploring Language and Model-Specific Biases in LLM Stereotyping Behaviors</span>
+          </a>
+          <br>
+        <a href="">Weicheng Ma</a>,
+        <a href="">Ethan Gearey</a>,
+        <a href="">James Quirk</a>,
+        <strong>Shun Liu</strong>,
+        <a href="">Lili Wang</a>,
+        <a href="">Soroush Vosoughi‡</a>,
+          <br>
+          <em>Submitted to ACL Rolling Review - June 2024</em>
+          <br>
+          <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
+          <!-- / -->
+          <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+          <!-- / -->
+          <a href="https://arxiv.org/abs/2312.07541">[arxiv]</a>
+          <p></p>
+          <p>
+            This study conducts a qualitative analysis of the stereotyping behaviors exhibited by large language models (LLMs) and explores the model-specific nature of these biases. 
+            We demonstrate that due to inherent biases, stereotype benchmarking could lead to unfair evaluations for certain LLMs and minority groups, thus potentially distorting 
+            perceptions of social biases within LLMs and impeding research into stereotype mitigation. Our findings underscore the significant influence of prompt language on the 
+            expression of biases, highlighting how changes in the linguistic context can alter LLM responses. Additionally, the role of reinforcement learning with human feedback (RLHF) 
+            is critically examined, revealing its substantial impact on shaping these biases. The insights gained from this research could greatly assist in developing more effective 
+            strategies for mitigating stereotypes in LLMs, reducing the reliance on extensive manual data annotation, bearing significant societal impacts.
+          </p>
+        </td>
+      </tr>
+      
+      <!-- [EndoAss] -->
       <tr onmouseout="endoass_stop()" onmouseover="endoassistant_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -116,6 +169,7 @@
         </td>
       </tr>
 
+      <!-- [MEDFuse] -->
       <tr onmouseout="MEDFuse_stop()" onmouseover="MEDFuse_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
@@ -211,9 +265,10 @@
       </td>
     </tr>
 	
-
-    <tr onmouseout="ifts_stop()" onmouseover="ifts_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+    
+    <!-- [IFTS] -->
+    <!-- <tr onmouseout="ifts_stop()" onmouseover="ifts_start()"> -->
+      <!-- <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ifts_image'></div>
           <img src='images/IFTS.png' width=100%>
@@ -236,17 +291,17 @@
         <br>
     <strong>Shun Liu</strong>
         <a href="https://pratulsrinivasan.github.io/">Kexin Wu</a>,
-        <a href="http://stephangarbin.com/">Chufeng Jiang</a>,
+        <a href="http://stephangarbin.com/">Chufeng Jiang</a>, -->
         <!-- <a href="https://dorverbin.github.io/">Bin Huang</a>, -->
-        <a href="https://bmild.github.io/">Danqing Ma</a>
+        <!-- <a href="https://bmild.github.io/">Danqing Ma</a>
         <br>
         <em>arxiv</em>, 2024
-        <br>
+        <br> -->
         <!-- <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
         /
         <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
         / -->
-        <a href="http://arxiv.org/abs/2312.05283">[arxiv]</a>
+        <!-- <a href="http://arxiv.org/abs/2312.05283">[arxiv]</a>
         <p></p>
         <p>
           We conduct an quantitative overview on the time-series wrangling methods measured by performance gain, including
@@ -255,9 +310,10 @@
           of our knowledge, this work sets an initial try on the systematic overview on preprocessing techniques for 
           cryptocurrency price grounding and forecasting.
         </p>
-      </td>
-    </tr>
-
+      </td> -->
+    <!-- </tr> -->
+    
+    <!-- [ADA-YOLO] -->
     <tr onmouseout="adayolo_stop()" onmouseover="adayolo_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
