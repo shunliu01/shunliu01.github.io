@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Shun Liu's Website</title>
-    
+
     <meta name="author" content="Shun Liu">
     <meta name="viewport" content="width=device-width,  initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
@@ -27,11 +27,11 @@
                 
                 <p style="text-align:center">
                   <a href="mailto:kevinliuleo@gmail.com" style="font-size: 20px;">Email</a> &nbsp;/&nbsp;
-                  <a href="data/ShunLiu-CV-202407.pdf" style="font-size: 20px;">CV</a> &nbsp;/&nbsp;
+                  <a href="data/ShunLiu-CV.pdf" style="font-size: 20px;">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?hl=en&user=9Y1aQ0oAAAAJ" style="font-size: 20px;">Scholar</a> &nbsp;/&nbsp;
                   <!-- <a href="https://twitter.com/kevin_leo735">Twitter</a> &nbsp;/&nbsp; -->
                   <a href="https://www.linkedin.com/in/shun-liu-5285492a2/" style="font-size: 20px;">LinkedIn</a> &nbsp;/&nbsp;
-                  <!-- <a href="https://github.com/shunliu01/" style="font-size: 20px">Github</a> &nbsp;/&nbsp; -->
+                  <!-- <a href="https://github.com/shunliu01/" style='font-size: 20px">Github</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://www.kaggle.com/liushundawang">Kaggle</a> -->
                 </p>
               </td>
@@ -43,8 +43,6 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2 style="color: red; font-size: 20px; font-weight: bold">I'm actively seeking CS PhD oppurtunities starting at 25 Fall!</h2>
-                <br>
                 <h2 style="font-size: 26px; font-weight:bold">Biography</h2 style="font-size: 26px;">
                 <p style="font-size: 20px;">
                   I'm currently pursing my B.E. degree in Computer Science at <a href="https://en.wikipedia.org/wiki/Shanghai_University_of_Finance_and_Economics" style="font-size: 20px;">Shanghai University of Finance and Economics</a>.
@@ -67,7 +65,7 @@
                 
                 <br>
                 <br>
-                <!-- <h2 style="color: red; font-size: 20px; font-weight: bold">I'm actively seeking PhD oppurtunities starting at 25 Fall!</h2> -->
+                <h2 style="color: red; font-size: 20px; font-weight: bold">I'm actively seeking potential PhD oppurtunities starting at 25 Fall!</h2>
               </td>
             </tr>
             
@@ -78,6 +76,48 @@
     
       <!-- [Paper] -->
       
+      <!-- [FERRET-SURG] -->
+      <tr onmouseout="ferretsurg_stop()" onmouseover="ferretsurg_start()">
+        <td style="padding:0px;width:40%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='ferretsurg_image'></div>
+              <img src='images/FERRETSurg.png' width=250% style="margin-left: 0%; margin-top: -20%">
+          </div>
+          <script type="text/javascript">
+            function ferretsurg_start() {
+              document.getElementById('ferretsurg_image').style.opacity = "1";
+            }
+  
+            function ferretsurg_stop() {
+              document.getElementById('ferretsurg_image').style.opacity = "0";
+            }
+            ferretsurg_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="" style="font-size: 18px">
+            <span class="papertitle" style="font-size: 20px;">FERRET-SURG: Vision Grounding</span>
+          </a>
+          <br>
+          <strong style="font-size: 18px">Shun Liu</strong>, 
+          <a href="" style="font-size: 18px">Xuan Gong‡</a>, 
+          <a href="" style="font-size: 18px">David Doermann‡</a>
+          <br>
+          <em style="font-size: 18px;">Submitted to ICLR'25</em style="font-size: 18px;">
+          <br>
+          <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
+          <!-- / -->
+          <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+          <!-- / -->
+          <a href="" style="font-size: 18px">[arxiv]</a>
+          
+          <p style="font-size: 18px;">
+            We propose FERRET-Surg, a comprehensive vision grounding framework for complex surgical scene comprehension.
+          </p>
+        </td>
+      </tr>
+
+
       <!-- [MedFuse] -->
       <tr onmouseout="medfuse_stop()" onmouseover="medfuse_start()">
         <td style="padding:0px;width:40%;vertical-align:middle">
@@ -112,7 +152,7 @@
           <a href="" style="font-size: 18px">Fang-Ming Huang</a>, 
           <a href="" style="font-size: 18px">Wen-Chih Peng‡</a>
           <br>
-          <em style="font-size: 18px;">Accepted, CIKM'24(Short Research Paper Track)</em style="font-size: 18px;">
+          <em style="font-size: 18px;">Accepted by CIKM'24(Short Research Paper Track)</em style="font-size: 18px;">
           <br>
           <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
           <!-- / -->
@@ -127,7 +167,109 @@
         </td>
       </tr>
 
-    <!-- [MAIF] -->
+      <!-- [LLMBias] -->
+      <tr onmouseout="llmbias_stop()" onmouseover="llmbias_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='llmbias_image'></div>
+            <!-- <embed src="images/EndoAss.pdf" width="100%" height="600" type="application/pdf"> -->
+            <!-- <iframe src='images/EndoAss.pdf' width="100" height="200></iframe> -->
+            <img src='images/LLMBias.png' width=220% style="margin-left: 0%; margin-top: -50%">
+          </div>
+          <script type="text/javascript">
+            function llmbias_start() {
+              document.getElementById('llmbias_image').style.opacity = "1";
+            }
+  
+            function llmbias_stop() {
+              document.getElementById('llmbias_image').style.opacity = "0";
+            }
+            llmbias_stop()
+          </script>
+        </td>
+        
+        <td style="padding:20px;width:75%;vertical-align:middle;">
+          <a href="" style="font-size: 18px">
+            <span class="papertitle" style="font-size: 20px;">Exploring Language and Model-Specific Biases in LLM Stereotyping Behaviors</span>
+          </a>
+          <br>
+        <a href="" style="font-size: 18px">Weicheng Ma</a>, 
+        <a href="" style="font-size: 18px">Ethan Gearey</a>, 
+        <a href="" style="font-size: 18px">James Quirk</a>, 
+        <strong style="font-size: 18px">Shun Liu</strong>, 
+        <a href="" style="font-size: 18px">Lili Wang</a>, 
+        <a href="" style="font-size: 18px">Soroush Vosoughi‡</a>, 
+          <br>
+          <em style="font-size: 18px;">Submitted to ACL Rolling Review - June 2024</em style="font-size: 18px;">
+          <br>
+          <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
+          <!-- / -->
+          <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+          <!-- / -->
+          <a href="" style="font-size: 18px">[arxiv]</a>
+          <p style="font-size: 18px;">
+            This study conducts a qualitative analysis of the stereotyping behaviors exhibited by large language models (LLMs) and explores the model-specific nature of these biases. 
+            We demonstrate that due to inherent biases,  stereotype benchmarking could lead to unfair evaluations for certain LLMs and minority groups,  thus potentially distorting 
+            perceptions of social biases within LLMs and impeding research into stereotype mitigation.
+          </p>
+        </td>
+      </tr>
+      
+      <!-- [EndoAss] -->
+      <tr onmouseout="endoass_stop()" onmouseover="endoassistant_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='endoassistant_image'></div>
+            <!-- <embed src="images/EndoAss.pdf" width="100%" height="600" type="application/pdf"> -->
+            <!-- <iframe src='images/EndoAss.pdf' width="100" height="200></iframe> -->
+            <img src='images/EndoAss.png' width=230% style="margin-left: 0%; margin-top: -10%">
+          </div>
+          <script type="text/javascript">
+            function endoassistant_start() {
+              document.getElementById('endoassistant_image').style.opacity = "1";
+            }
+  
+            function endoassistant_stop() {
+              document.getElementById('endoassistant_image').style.opacity = "0";
+            }
+            endoassistant_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="" style="font-size: 18px">
+            <span class="papertitle" style="font-size: 20px;">EndoAssistant: A Large-scale Vision-Language Dataset for Endoscopic Surgery Understanding from Open-Source Videos</span>
+          </a>
+          <br>
+        <a href="" style="font-size: 18px">Yuanhao Zhai*</a>, 
+        <a href="" style="font-size: 18px">Nan Xi*</a>, 
+        <strong style="font-size: 18px">Shun Liu*</strong>, 
+        <a href="" style="font-size: 18px">Balu Harshavardan Koduru</a>, 
+        <a href="" style="font-size: 18px">Xi Tang</a>, 
+        <a href="" style="font-size: 18px">Yuan Zhang</a>, 
+        <a href="" style="font-size: 18px">Yunjie Tian</a>, 
+        <a href="" style="font-size: 18px">Yuxuan Sun</a>, 
+        <a href="" style="font-size: 18px">Tianyu Luan</a>, 
+        <a href="" style="font-size: 18px">Ziqing Xue</a>, 
+        <a href="" style="font-size: 18px">Junsong Yuan‡</a>, 
+        <a href="" style="font-size: 18px">David Doermann‡</a>, 
+        <a href="" style="font-size: 18px">Xuan Gong‡</a>, 
+          <br>
+          <em style="font-size: 18px;">Submitted to NeurIPS'24</em style="font-size: 18px;">
+          <br>
+          <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
+          <!-- / -->
+          <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+          <!-- / -->
+          <a href="" style="font-size: 18px">[arxiv]</a>
+          
+          <p style="font-size: 18px;">
+            We present a large-scale image-text pairs of surgical endoscopic scenes from expert surgeons, encompasing more than 200 open-source videos spanning,  including 28k images,  73k image-caption pairs and 
+            11k expert-level image-QA pairs,  aiming to support medical professionals by mitigating repetitive tasks. We also present rigorous evaluation demonstrating its efficacy in downstream surgical endoscopic scene 
+            comprehension tasks like classification,  retrieval and VQA.
+          </p>
+        </td>
+      </tr>            
+
     <tr onmouseout="maif_stop()" onmouseover="maif_start()">
       <td style="padding:20px;width:25%;vertical-align:middle;">
         <div class="one">
@@ -151,12 +293,14 @@
         </a>
         <br>
       <strong style="font-size: 18px">Shun Liu</strong>, 
-      <a href="https://www.linkedin.com/in/jiaxi-yang-19a6b1b6/" style="font-size: 18px">Jiaxi Yang‡</a>
-        <br>  
-        <em style="font-size: 18px;">arxiv</em>,  2024
-        
-        <a href="https:/f/smerf-3d.github.io/" style="font-size: 18px"></a>
+      <a href="https://www.linkedin.com/in/jiaxi-yang-19a6b1b6/" style='font-size: 18px">Jiaxi Yang‡</a>, 
         <br>
+        <em style="font-size: 18px;">arxiv</em style="font-size: 18px;">,  2024
+        <br>
+        <!-- <a href="https://smerf-3d.github.io/" style='font-size: 18px">project page</a> -->
+        <!-- / -->
+        <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
+        <!-- / -->
         <a href="https://arxiv.org/abs/2312.07541" style="font-size: 18px">[arxiv]</a>
         
         <p style="font-size: 18px;">
@@ -167,7 +311,6 @@
         </p>
       </td>
     </tr>
-    <!-- [MAIF] -->
   
     
     <!-- [ADA-YOLO] -->
@@ -194,13 +337,13 @@
         </a>
         <br>
     <strong style="font-size: 18px">Shun Liu</strong>
-        <a href="https://scholar.google.com/citations?hl=en&user=_GX9j1YAAAAJ" style="font-size: 18px">Jianan Zhang</a>, 
+        <a href="https://scholar.google.com/citations?hl=en&user=_GX9j1YAAAAJ">Jianan Zhang</a>, 
         <a href="" style="font-size: 18px">Ruocheng Song</a>, 
-        <a href="https://dr.ntu.edu.sg/cris/rp/rp00631" style="font-size: 18px">Teik Toe Teoh‡</a>
+        <a href="https://dr.ntu.edu.sg/cris/rp/rp00631">Teik Toe Teoh</a>, 
         <br>
         <em style="font-size: 18px;">arxiv</em style="font-size: 18px;">,  2024
         <br>
-        <!-- <a href="https://pratulsrinivasan.github.io/nuvo/" style="font-size: 18px">project page</a>
+        <!-- <a href="https://pratulsrinivasan.github.io/nuvo/" style='font-size: 18px">project page</a>
         /
         <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
         / -->
