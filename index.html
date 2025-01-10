@@ -1,236 +1,322 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Shun Liu</title>
+    <meta charset="UTF-8">
+    <title>Shun Liu - PhD Applicant</title>
+    
+    <!-- SEO优化 -->
+    <meta name="description" content="Shun Liu's personal homepage for PhD applications in Computer Science and Biomedical Engineering.">
+    <meta name="keywords" content="Shun Liu, PhD Application, Computer Science, Biomedical Engineering, Research, Publications">
     
     <meta name="author" content="Shun Liu">
-    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- 自定义样式 -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
+    <style>
+      
+      /* 自定义样式 */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+      }
+      a {
+        font-size: 18px;
+        color: #007bff; /* 可选：设置链接颜色 */
+        text-decoration: none; /* 可选：移除下划线 */
+      }
+      a:hover {
+        text-decoration: underline; /* 可选：悬停时显示下划线 */
+      }
+      p {
+        font-size: 18px;
+
+      }
+      li {
+        font-size: 18px;
+      }
+      strong {
+        font-size: 18px;
+      }
+      .navbar-brand {
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .publication-title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .publication-details {
+        font-size: 16px;
+        color: #555;
+      }
+      .footer {
+        background-color: #343a40;
+        color: #fff;
+        padding: 20px 0;
+      }
+      .hoverZoomLink img {
+        transition: transform 0.3s;
+      }
+      .hoverZoomLink img:hover {
+        transform: scale(1.05);
+      }
+      .profile-img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .publication img {
+        width: 100%;
+        max-width: 150px;
+        transition: opacity 0.3s;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .publication:hover img {
+        opacity: 1;
+      }
+      .publication-content {
+        position: relative;
+        padding-left: 160px;
+      }
+      @media (max-width: 768px) {
+        .publication-content {
+          padding-left: 0;
+        }
+        .publication img {
+          display: none;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center; font-size: 40px">
-                  Shun Liu
-                </p>
-                <p style="font-size: 16px; text-align: center;"><b>Email</b>: shunliu [at] buffalo [dot] edu</p>
-                <p style="font-size: 16px;">I'm in the final year in the Department of Computer Science, <a href="https://english.sufe.edu.cn/" style="font-size: 16px;">Shanghai University of Finance and Economics</a>. During the undergraduate study, I'm fortunate
-                  to intern and receive high-quality research mentorship at 
-                  <a href="https://www.buffalo.edu/ai-data-science/research/organizations/innovation-lab.html" style="font-size: 16px;">University at Buffalo</a>,  
-                  <a href="https://www.cs.dartmouth.edu/~soroush//People.html"style="font-size: 16px;">Dartmouth College</a>,  
-                  <a href="https://en.zhejianglab.com/" style="font-size: 16px;">Zhejiang Lab</a>,  
-                  and <a href="https://cardopt.com/" style="font-size: 16px;">Cardinal Operations</a>. 
-                  My previous work is about LLM-driven feature engineering (LLM4FE) for tabular forecasting, and vision-language understanding models with explanability and access to domain knowledge (e.g. multimodel RAG)
-                  I'm currently working on developing <b>foundational/generative models</b> on: 
-                  <ul>
-                    <li style="font-size: 16px;"><u>Biomedical images understanding</u>:
-                      Robotic Surgery (CVPR, under review), Endoscopy (ICLR, under review);
-                    </li>
-                    <li style="font-size: 16px;"><u>Biomedical signals interpretation & reconstruction</u>:
-                      <a href="https://arxiv.org/abs/2407.12309" style="font-size: 16px;">EHR (CIKM'24)</a>, EKG (working paper);
-                    </li>
-                    <li style="font-size: 16px;"><u>Human-Centered Vision</u>:
-                      2D Talking Head Synthesis
-                    </li>
-                  </ul>
-                </p>
-                
-                <p style="text-align:center">
-                  <a href="mailto:kevinliuleo@gmail.com" style="font-size: 16px;">Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV.pdf" style="font-size: 16px;">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=9Y1aQ0oAAAAJ" style="font-size: 16px;">Scholar</a> &nbsp;/&nbsp;
-                  <!-- <a href="https://twitter.com/kevin_leo735">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://www.linkedin.com/in/shun-liu-5285492a2/" style="font-size: 16px;">LinkedIn</a> &nbsp;/&nbsp;
-                  <!-- <a href="https://github.com/shunliu01/" style="font-size: 16px">Github</a> &nbsp;/&nbsp; -->
-                  <!-- <a href="https://www.kaggle.com/liushundawang">Kaggle</a> -->
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/ShunLiu.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2 style="color: red; font-size: 16px; font-weight: bold">I'm actively seeking CS/BME PhD intake starting at 25 Fall!</h2>
-                <br>
-
-                <h2 style="font-size: 26px; font-weight:bold">News</h2 style="font-size: 26px;">
-                <p style="font-size: 16px;">[12/2024] Started as research intern at <a href="https://excitai.com/" style="font-size: 16px">ExcitAI</a>!, Topics: 2D talking head generation.</p>  
-                <p style="font-size: 16px;">[11/2024] One paper (first-author) is submitted to <a href="https://cvpr.thecvf.com/Conferences/2025" style="font-size: 16px">CVPR'25</a> on biomedical text-vision learning!</p>
-                <p style="font-size: 16px;">[09/2024] One paper is submitted to <a href="https://iclr.cc/Conferences/2025/Dates" style="font-size: 16px">ICLR'25</a> on biomedical VQA!</p>
-                <p style="font-size: 16px;">[07/2024] One paper is accepted by <a href="https://cikm2024.org/" style="font-size: 16px">CIKM'24</a>, thanks for all collaborators!</p>
-                <p style="font-size: 16px;">[07/2024] Started as full-time research assistant at <a href="https://engineering.buffalo.edu/computer-science-engineering.html" style="font-size: 16px">University at Buffalo</a>!, Topics: large-scale vision-language pretraining, multimodel representation learning.</p>
-                <p style="font-size: 16px;">[03/2024] Started as research intern at <a href="https://cardopt.com/" style="font-size: 16px">Cardinal Operations</a>!, Topics: semi-supervised LLM-driven feature engineering for time-series forecasting in high-dimensional tabulars.</p>
-                <p style="font-size: 16px;">[12/2023] Winned Gold Medal (Top 1%) in <a href="https://www.kaggle.com/competitions/cafa-5-protein-function-prediction" style="font-size: 16px">CAFA5 Protein Function Prediction</a> competition!</p>
-                <p style="font-size: 16px;">[11/2023] Starting as a research assistant at <a href="" style="font-size: 16px">Dartmouth College</a>!, Topics: identifying and mitigating stereotyping behaviors and values in LLMs</p>
-                <p style="font-size: 16px;">[10/2023] Winned Silver Medal (Top 2%) in <a href="https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446244" style="font-size: 16px">LLM for Science Exam</a> competition!</p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Shun Liu</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#interns">Interns</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     
-      <!-- [Paper] -->
-      
-      <!-- [MedFuse] -->
-      <h2 style="font-size: 26px; font-weight:bold">Publications</h2 style="font-size: 26px;">
-      <tr onmouseout="medfuse_stop()" onmouseover="medfuse_start()">
-        <td style="padding:0px;width:40%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='MEDFuse_image'></div>
-              <img src='images/MEDFuse.png' width=250% style="margin-left: 0%; margin-top: -20%">
+    <!-- 主内容 -->
+    <div class="container" style="margin-top: 80px;">
+      <!-- 个人介绍 -->
+      <section id="about" class="my-5">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <a href="images/ShunLiu.jpg" class="hoverZoomLink">
+              <img src="images/profile.jpg" alt="Profile Photo" class="profile-img">
+            </a>
           </div>
-          <script type="text/javascript">
-            function MEDFuse_start() {
-              document.getElementById('MEDFuse_image').style.opacity = "1";
-            }
-  
-            function MEDFuse_stop() {
-              document.getElementById('MEDFuse_image').style.opacity = "0";
-            }
-            MEDFuse_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="" style="font-size: 18px">
-            <span class="papertitle" style="font-size: 16px;">MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</span>
-          </a>
-          <br>
-          <a href="" style="font-size: 18px">Nguyen Minh Thao Phan*</a>, 
-          <a href="" style="font-size: 18px">Cong-Tinh Dao*</a>, 
-          <a href="" style="font-size: 18px">Chenwei Wu</a>, 
-          <a href="" style="font-size: 18px">Jian-Zhe Wang</a>, 
-          <strong style="font-size: 18px">Shun Liu</strong>, 
-          <a href="" style="font-size: 18px">Jun-En Ding</a>, 
-          <a href="" style="font-size: 18px">David Restrepo</a>, 
-          <a href="" style="font-size: 18px">Feng Liu</a>, 
-          <a href="" style="font-size: 18px">Fang-Ming Huang</a>, 
-          <a href="" style="font-size: 18px">Wen-Chih Peng‡</a>
-          <br>
-          <em style="font-size: 18px;">Accepted, CIKM'24(Short Research Paper Track)</em style="font-size: 18px;">
-          <br>
-          <!-- <a href="https://smerf-3d.github.io/">project page</a> -->
-          <!-- / -->
-          <!-- <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a> -->
-          <!-- / -->
-          <a href="https://arxiv.org/abs/2407.12309" style="font-size: 18px">[arxiv]</a>
-          
-          <p style="font-size: 18px;">
-            We propose MEDFuse,  a Multimodal EHR Data Fusion framework that incorporates masked lab-test modeling and large language models (LLMs) to effectively integrate structured and unstructured medical data. MEDFuse leverages multimodal embeddings extracted from two sources: LLMs fine-tuned on 
-            free clinical text and masked tabular transformers trained on structured lab test results.
-          </p>
-        </td>
-      </tr>
-
-    <!-- [MAIF] -->
-    <tr onmouseout="maif_stop()" onmouseover="maif_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle;">
-        <div class="one">
-          <div class="two" id='maif_image'></div>
-          <img src='images/MAIF.png' width=220% style="margin-left: 0%; margin-top: -50%">
+          <div class="col-md-6">
+            <h1 class="text-center">Shun Liu</h1>
+            <p class="text-center" ><strong>Email</strong>: <a href="mailto:shunliu@buffalo.edu">shunliu@buffalo.edu</a></p>
+            <p >
+              I am in my final year at the Department of Computer Science, 
+              <a href="https://english.sufe.edu.cn/" target="_blank" >Shanghai University of Finance and Economics</a>. 
+              During my undergraduate studies, I had the privilege to work at 
+              <a href="https://www.buffalo.edu/ai-data-science/research/organizations/innovation-lab.html" target="_blank" >SUNY Buffalo</a>, 
+              <a href="https://www.cs.dartmouth.edu/~soroush//People.html" target="_blank" >Dartmouth College</a>, 
+              <a href="https://en.zhejianglab.com/" target="_blank" >Zhejiang Lab</a>, 
+              and <a href="https://cardopt.com/" target="_blank" >Cardinal Operations</a>. 
+              My research focuses on automating Large Language Models (LLMs) for feature discovery in tabular data, and vision foundation models with an emphasis on generalization and explainability.
+            </p>
+            <p >
+              <strong>Currently Working On:</strong>
+              <ul>
+                <li><b>Biomedical Signals Analytics</b>: Robotic Surgery (CVPR'25, under review), Endoscopy (ICLR'25, under review), Electronic Health Records (CIKM'24), Electrocardiogram (working paper)</li>
+                <li><b>Human-Centered Vision</b>: 2D Talking Head Synthesis, 3D Scene Reconstruction</li>
+              </ul>
+            </p>
+            <p class="text-center" >
+              <a href="mailto:kevinliuleo@gmail.com">Email</a> &nbsp;/&nbsp;
+              <a href="data/CV.pdf" target="_blank">CV</a> &nbsp;/&nbsp;
+              <a href="https://scholar.google.com/citations?hl=en&user=9Y1aQ0oAAAAJ" target="_blank">Scholar</a> &nbsp;/&nbsp;
+              <a href="https://www.linkedin.com/in/shun-liu-5285492a2/" target="_blank">LinkedIn</a>
+            </p>
+          </div>
         </div>
-        <script type="text/javascript">
-          function maif_start() {
-            document.getElementById('maif_image').style.opacity = "1";
-          }
-
-          function maif_stop() {
-            document.getElementById('maif_image').style.opacity = "0";
-          }
-          maif_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2401.02630.pdf">
-          <span class="papertitle" style="font-size: 16px;">MAIF: Model-Agnostic Interpretation Framework in Machine Learning: A Comparative Study in NBA Sports</span>
-        </a>
-        <br>
-      <strong style="font-size: 18px">Shun Liu</strong>, 
-      <a href="https://www.linkedin.com/in/jiaxi-yang-19a6b1b6/" style="font-size: 18px">Jiaxi Yang‡</a>
-        <br>  
-        <em style="font-size: 18px;">arxiv</em>,  2024
+      </section>
+      
+      <!-- 新闻动态 -->
+      <section id="news" class="my-5">
+        <h2 class="section-title text-center" style="color: red">I'm actively seeking CS/BME PhD intake starting Fall 2025!</h2>
+        <h2 class="section-title">News</h2>
+        <ul>
+          <li ><b>[11/2024]</b> <i>One paper (first-author) is submitted to <a href="https://cvpr.thecvf.com/Conferences/2025" target="_blank">CVPR'25</a> on biomedical text-vision learning!</i></li>
+          <li ><b>[09/2024]</b> <i>One paper is submitted to <a href="https://iclr.cc/Conferences/2025/Dates" target="_blank">ICLR'25</a> on biomedical VQA!</i></li>
+          <li ><b>[07/2024]</b> <i>One paper is accepted by <a href="https://cikm2024.org/" target="_blank">CIKM'24</a>, thanks to all collaborators!</i></li>
+          <li ><b>[12/2023]</b> <i>Won Gold Medal <b>(Top 1%)</b> in <a href="https://www.kaggle.com/competitions/cafa-5-protein-function-prediction" target="_blank">CAFA5 Protein Function Prediction</a> competition!</i></li>
+          <li ><b>[10/2023]</b> <i>Won Silver Medal <b>(Top 2%)</b> in <a href="https://www.kaggle.com/competitions/kaggle-llm-science-exam/discussion/446244" target="_blank">LLM for Science Exam</a> competition!</i></li>
+        </ul>
+      </section>
+      
+      <!-- 研究部分 -->
+      <section id="research" class="my-5">
+        <h2 class="section-title">Research</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Biomedical Signals Analytics</h4>
+            <p style="font-size: 14px;">
+              Leverage multimodel data complementaries for vision-language <br>
+              task adaptation, e.g. VQA, Vision Grounding, etc.
+            </p>
+            <ul>
+              <li ><b>Robotic Surgery</b> (CVPR'25, under review)</li>
+              <li ><b>Endoscopy</b> (ICLR'25, under review)</li>
+              <li ><b>Electronic Health Records</b> (<a href="https://arxiv.org/abs/2407.12309" target="_blank">CIKM'24</a>)</li>
+              <li ><b>Electrocardiogram</b> (working paper)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Human-Centered Vision</h4>
+            <p style="font-size: 14px;">
+              Exploring real-time representation & rendering algorithms for <br>
+              high-fidelity generation of, e.g. face, head, etc.
+            </p>
+            <ul>
+              <li >2D Talking Head Synthesis</li>
+              <li >3D Scene Reconstruction</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <!-- 出版物部分 -->
+      <section id="publications" class="my-5">
+        <h2 class="section-title">Publications</h2><p>(* first author(s), ‡ corresponding author(s))</p>
+        <!-- Publication 1 -->
+        <div class="publication mb-4">
+          <img src="images/MEDFuse.png" alt="MEDFuse" class="publication-img">
+          <div class="publication-content">
+            <h5 class="publication-title">
+              <a href="https://arxiv.org/abs/2407.12309" target="_blank">MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</a>
+            </h5>
+            <p class="publication-details">
+              Nguyen Minh Thao Phan*, Cong-Tinh Dao*, Chenwei Wu, Jian-Zhe Wang, <strong>Shun Liu</strong>, Jun-En Ding, David Restrepo, Feng Liu, Fang-Ming Huang, Wen-Chih Peng‡<br>
+              <em>Accepted, CIKM'24 (Short Research Paper Track)</em>
+            </p>
+            <p >
+              We propose MEDFuse, a Multimodal EHR Data Fusion framework that incorporates masked lab-test modeling and large language models (LLMs) to effectively integrate structured and unstructured medical data. MEDFuse leverages multimodal embeddings extracted from two sources: LLMs fine-tuned on free clinical text and masked tabular transformers trained on structured lab test results.
+            </p>
+            <a href="https://arxiv.org/abs/2407.12309" target="_blank">[arxiv]</a>
+          </div>
+        </div>
         
-        <a href="https:/f/smerf-3d.github.io/" style="font-size: 18px"></a>
-        <br>
-        <a href="https://arxiv.org/abs/2312.07541" style="font-size: 18px">[arxiv]</a>
+        <!-- Publication 2 -->
+        <div class="publication mb-4">
+          <img src="images/MAIF.png" alt="MAIF" class="publication-img">
+          <div class="publication-content">
+            <h5 class="publication-title">
+              <a href="https://arxiv.org/pdf/2401.02630.pdf" target="_blank">MAIF: Model-Agnostic Interpretation Framework in Machine Learning: A Comparative Study in NBA Sports</a>
+            </h5>
+            <p class="publication-details">
+              <strong>Shun Liu</strong><br>
+              <em>arxiv</em>, 2024
+            </p>
+            <p >
+              We proposed an innovative framework designed to reconcile the trade-off between model performance and interpretability. Our approach is centered around modular operations on high-dimensional statistics, which enable end-to-end processing while preserving interpretability. By fusing diverse interpretability techniques and modularized data processing, our framework sheds light on the decision-making processes of complex models without compromising their performance.
+            </p>
+            <a href="https://arxiv.org/abs/2312.07541" target="_blank">[arxiv]</a>
+          </div>
+        </div>
         
-        <p style="font-size: 18px;">
-        We proposed an innovative framework designed to reconcile the trade-off between model performance and interpretability. 
-        Our approach is centered around modular operations on high-dimensional statistics,  which enable end-to-end processing while preserving interpretability. 
-        By fusing diverse interpretability techniques and modularized data processing,  our framework sheds light on the decision-making processes of complex models 
-        without compromising their performance.
+        <!-- Publication 3 -->
+        <div class="publication mb-4">
+          <img src="images/ADAYOLO.png" alt="ADA-YOLO" class="publication-img">
+          <div class="publication-content">
+            <h5 class="publication-title">
+              <a href="https://arxiv.org/pdf/2312.10099.pdf" target="_blank">ADA-YOLO: Dynamic Fusion of YOLOv8 and Adaptive Heads for Precise Image Detection and Diagnosis</a>
+            </h5>
+            <p class="publication-details">
+              <strong>Shun Liu</strong>, Jianan Zhang, Ruocheng Song, Teik Toe Teoh‡<br>
+              <em>arxiv</em>, 2024
+            </p>
+            <p >
+              We proposed a deep detector which leverages dynamic feature localization and parallel regression for computer vision tasks through an adaptive head module. Empirical experiments were conducted on the Blood Cell Count and Detection (BCCD) dataset to evaluate the effectiveness of ADA-YOLO. The results showed that ADA-YOLO outperforms the YOLOv8 model in mAP (mean average precision) on the BCCD dataset while using more than 3X less memory than YOLOv8.
+            </p>
+            <a href="http://arxiv.org/abs/2312.05283" target="_blank">[arxiv]</a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- 研究实习部分 -->
+      <section id="interns" class="my-5">
+        <h2 class="section-title">Research Internships</h2>
+        <ul>
+          <li style="font-weight: bold;">
+            [12/2024-Present] &nbsp; 
+            <a href="https://excitai.com/" target="_blank">Excit AI</a>, &nbsp;
+            <i><u>2D Talking Head Generation, 3D Scene Reconstruction</u></i>
+          </li>
+          <li style="font-weight: bold;">
+            [03/2024-12/2024] &nbsp; 
+            <a href="https://www.buffalo.edu/ai-data-science/research/organizations/innovation-lab.html" target="_blank">SUNY Buffalo</a>, &nbsp;
+            <i><u>Biomedical Foundation Model, Multimodal Representation Learning</u></i>
+          </li>
+          <li style="font-weight: bold;">
+            [11/2023-02/2024] &nbsp; 
+            <a href="https://www.cs.dartmouth.edu/~soroush//People.html" target="_blank">Dartmouth College</a>, &nbsp;
+            <i><u>Trustworthy Large Language Models</u></i>
+          </li>
+          <li style="font-weight: bold;">
+            [08/2023-11/2024] &nbsp; 
+            <a href="https://en.zhejianglab.com/" target="_blank">Zhejiang Lab</a>, &nbsp;
+            <i><u>Human Motion Generation</u></i>
+          </li>
+        </ul>
+      </section>
+      
+      <!-- 联系方式部分 -->
+      <section id="contact" class="my-5">
+        <h2 class="section-title">Contact Me!</h2>
+        <p>
+          <strong>Email:</strong> kevinliuleo@gmail.com
         </p>
-      </td>
-    </tr>
-    <!-- [MAIF] -->
-  
+        <p>
+          <strong>WeChat:</strong> 18017622619
+        </p>
+      </section>
+    </div>
     
-    <!-- [ADA-YOLO] -->
-    <tr onmouseout="adayolo_stop()" onmouseover="adayolo_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='adayolo_image'></div>
-          <img src='images/ADAYOLO.png' width=220% style="margin-left: 0%; margin-top: -50%">
-        </div>
-        <script type="text/javascript">
-          function adayolo_start() {
-            document.getElementById('adayolo_image').style.opacity = "1";
-          }
-
-          function adayolo_stop() {
-            document.getElementById('adayolo_image').style.opacity = "0";
-          }
-          adayolo_stop()
-        </script>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/pdf/2312.10099.pdf">
-          <span class="papertitle" style="font-size: 16px;">ADA-YOLO: Dynamic Fusion of YOLOv8 and Adaptive Heads for Precise Image Detection and Diagnosis</span>
-        </a>
-        <br>
-    <strong style="font-size: 18px">Shun Liu</strong>
-        <a href="https://scholar.google.com/citations?hl=en&user=_GX9j1YAAAAJ" style="font-size: 18px">Jianan Zhang</a>, 
-        <a href="" style="font-size: 18px">Ruocheng Song</a>, 
-        <a href="https://dr.ntu.edu.sg/cris/rp/rp00631" style="font-size: 18px">Teik Toe Teoh‡</a>
-        <br>
-        <em style="font-size: 18px;">arxiv</em style="font-size: 18px;">,  2024
-        <br>
-        <!-- <a href="https://pratulsrinivasan.github.io/nuvo/" style="font-size: 18px">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        / -->
-        <a href="http://arxiv.org/abs/2312.05283" style="font-size: 18px">[arxiv]</a>
-        
-        <p style="font-size: 18px;">
-          We proposed a deep detector which leverages the dynamic
-          feature localisation and parallel regression for computer vision tasks through adaptive head module.
-          Empirical experiments were conducted on the Blood Cell Count and Detection (BCCD) dataset
-          to evaluate the effectiveness of ADA-YOLO. The results showed that ADA-YOLO outperforms
-          the YOLOv8 model in mAP (mean average precision) on the BCCD dataset by using more than 3X less memory than YOLOv8.
-        </p>
-      </td>
-    </tr>
-
-
-    </tbody></table>
-
-        </td>
-      </tr>
-    </table>
+    <!-- 底部 -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p>&copy; 2024 Shun Liu. All rights reserved.</p>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap JS 和依赖 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
-  <br>
-  <br>
-  <br>
 </html>
